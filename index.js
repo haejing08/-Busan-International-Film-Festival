@@ -12,17 +12,22 @@ $(function () {
     infinite: true,
     slidesToShow: 7,
     slidesToScroll: 3,
-    prevArrow: $(".prev"),
-    nextArrow: $(".next"),
+    prevArrow: $("#prev01"),
+    nextArrow: $("#next01"),
   });
 });
 
-//top버튼 부드럽게
+//이미지2개넘어가기
 $(function () {
-  $(document).ready(function () {
-    $(".top_btn").click(function () {
-      $("body,html").animate({ scrollTop: 0 }, 600);
-    });
+  $("#slide").slick({
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: "linear",
+    prevArrow: $("#prev"),
+    nextArrow: $("#next"),
   });
 });
 
@@ -38,6 +43,15 @@ $(function () {
 //   $(".prev").click(function () {
 //     $(".poster_list").animate({ marginLeft: 0 }, function () {
 //       $(".poster_list:nth-child(n+7)").prependTo(".poster_list");
+//     });
+//   });
+// });
+
+//top버튼 부드럽게
+// $(function () {
+//   $(document).ready(function () {
+//     $(".top_btn").click(function () {
+//       $("body,html").animate({ scrollTop: 0 }, 600);
 //     });
 //   });
 // });

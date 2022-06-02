@@ -5,14 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>부산국제영화제</title>
+
     <!--구글폰트-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=EB+Garamond&family=Heebo&family=Inter&family=Karla:ital,wght@1,200&family=M+PLUS+1:wght@100&family=Noto+Sans+KR:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <!--구글아이콘-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+
     <!--jquery cdn-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <!--slick cdn-->
@@ -25,7 +39,10 @@
       type="text/css"
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
+
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="reset.css" />
+
     <script src="index.js"></script>
   </head>
   <body>
@@ -45,521 +62,429 @@
             <li><a href="#">PRESS Service</a></li>
           </ul>
           <div class="right_menu">
-            <div class="login">
-              <ul>
-                <li><a href="#">로그인</a></li>
-                <li><a href="#">1:1문의</a></li>
-              </ul>
-            </div>
+            <a href="#">로그인</a>
+            <a href="#">1:1문의</a>
             <div class="language">
-              <div class="lan_img">
-                <img src="image/btn_lang.png" alt="btn" />
-              </div>
-              <div class="language_list">
+              <img src="image/btn_lang.png" alt="1" />
+              <div class="lan_list">
                 <ul>
                   <li><a href="#">한국어</a></li>
-                  <li><a href="#">ENGLISH</a></li>
+                  <li><a href="#">English</a></li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div id="header_menu">
-        <div id="top_menu">
-          <img src="image/toplogo.png" alt="1" />
-        </div>
-        <div id="top_title">
-          <nav>
+      <div class="bottom_menu">
+        <div class="list">
+          <div class="top_logo">
+            <img src="image/toplogo.png" alt="logo" />
+          </div>
+          <nav class="menu_list">
             <ul>
-              <li><a href="#">부산국제영화제</a></li>
-              <li><a href="#">출품/신청안내</a></li>
-              <li><a href="#">참가안내</a></li>
-              <li><a href="#">커뮤니티</a></li>
-              <li><a href="#">역대영화제</a></li>
-              <li><a href="#">스태프채용</a></li>
+              <li>
+                <a href="#">부산국제영화제</a>
+              </li>
+              <li>
+                <a href="#">출품/신청안내</a>
+              </li>
+              <li>
+                <a href="#">참가안내</a>
+              </li>
+              <li>
+                <a href="#">커뮤니티</a>
+              </li>
+              <li>
+                <a href="#">역대영화제</a>
+              </li>
+              <li>
+                <a href="#">스태프채용</a>
+              </li>
             </ul>
           </nav>
         </div>
-      </div>
-      <div class="sub_menu">
-        <div class="menu_list">
-          <ul class="menu_list_01">
-            <li><a href="#">개최개요</a></li>
-            <li><a href="#">프로그램 섹션</a></li>
-            <li><a href="#">어워드</a></li>
-            <li><a href="#">프로그래머 소개</a></li>
-            <li><a href="#">조직구성</a></li>
-            <li><a href="#">스폰서 모집</a></li>
-            <li><a href="#">메세나 기업 모집</a></li>
-          </ul>
-          <ul class="menu_list_02">
-            <li><a href="#">출품신청안내</a></li>
-            <li><a href="#">공식 상영작</a></li>
-            <li><a href="#">아시아프로젝트마켓</a></li>
-            <li><a href="#">아시아영화펀드</a></li>
-            <li>
-              <a href="#">CHANEL X BIFF <br />아시아 영화아카데미</a>
-            </li>
-            <li><a href="#">플랫폼부산</a></li>
-            <li><a href="#">커뮤니티비프</a></li>
-          </ul>
-          <ul class="menu_list_03">
-            <li><a href="#">참가안내</a></li>
-            <li><a href="#">영화제</a></li>
-            <li><a href="#">시네필</a></li>
-            <li><a href="#">프레스</a></li>
-            <li><a href="#">마켓</a></li>
-            <li><a href="#">포럼 비프</a></li>
-            <li><a href="#">플랫폼 부산</a></li>
-          </ul>
-          <ul class="menu_list_04">
-            <li><a href="#">공지사항</a></li>
-            <li><a href="#">BIFF뉴스</a></li>
-            <li><a href="#">뉴스레터</a></li>
-            <li><a href="#">소셜허브</a></li>
-            <li><a href="#">리뷰</a></li>
-          </ul>
-          <ul class="menu_list_05">
-            <li><a href="#">상영작 통합검색</a></li>
-            <li><a href="#">영화제 발자취</a></li>
-            <li><a href="#">BIFF 미디어</a></li>
-            <li><a href="#">행사사진</a></li>
-          </ul>
-          <ul class="menu_list_06">
-            <li><a href="#">스태프 채용</a></li>
-          </ul>
+        <div class="none_list">
+          <div>
+            <div class="list01">
+              <ul>
+                <li><a href="#">개최개요</a></li>
+                <li><a href="#">프로그램 섹션</a></li>
+                <li><a href="#">어워드</a></li>
+                <li><a href="#">프로그래머 소개</a></li>
+                <li><a href="#">조직구성</a></li>
+                <li><a href="#">스폰서 모집</a></li>
+                <li><a href="#">메세나 기업 모집</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">출품신청안내</a></li>
+                <li><a href="#">공식 상영작</a></li>
+                <li><a href="#">아시아프로젝트마켓</a></li>
+                <li><a href="#">아시아영화펀드</a></li>
+                <li>
+                  <a href="#">CHANEL X BIFF <br />아시아 영화아카데미</a>
+                </li>
+                <li><a href="#">플랫폼부산</a></li>
+                <li><a href="#">커뮤니티비프</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">참가안내</a></li>
+                <li><a href="#">영화제</a></li>
+                <li><a href="#">시네필</a></li>
+                <li><a href="#">프레스</a></li>
+                <li><a href="#">마켓</a></li>
+                <li><a href="#">포럼 비프</a></li>
+                <li><a href="#">플랫폼 부산</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">BIFF뉴스</a></li>
+                <li><a href="#">뉴스레터</a></li>
+                <li><a href="#">소셜허브</a></li>
+                <li><a href="#">리뷰</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">상영작 통합검색</a></li>
+                <li><a href="#">영화제 발자취</a></li>
+                <li><a href="#">BIFF 미디어</a></li>
+                <li><a href="#">행사사진</a></li>
+              </ul>
+              <ul class="menu_list_06">
+                <li><a href="#">스태프 채용</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </header>
-    <div class="conBox">
-      <div class="box_img01">
-        <img src="image/visual_01.jpg" alt="1" />
-      </div>
-      <div class="box_p01">
-        <p>2022년 새롭게 시작되는</p>
-        <p>CHANEL X BIFF 아시아영화아카데미</p>
-        <p>
-          2022년, 코로나바이러스감염증-19로 인해 일시 중단되었던 부산국제영화제
-          교육프로그램 아시아영화아카데미가 샤넬과 만나<br />
-          CHANEL X BIFF 아시아영화아카데미 (CHANEL X BIFF ASIAN FILM ACADEMY)로
-          새롭게 돌아왔습니다. ​
-        </p>
-      </div>
-      <!-- <div class="box_img02">
-        <img src="image/visual_02.jpg" alt="1" />
-      </div>
-      <div class="box_p02">
-        <p>2022년 제27회 부산국제영화제</p>
-        <p>공식상영작(장/단편) 출품 공모</p>
-        <p>
-          출품 마감: <br />
-
-          단편 2022년 6월 22일(수) 18:00 <br />
-
-          장편 2022년 7월 20일(수) 18:00​
-        </p>
-      </div> -->
-    </div>
-    <section>
-      <div class="notice">
-        <div class="notice_title">
-          <h3>Notice</h3>
-        </div>
-        <div class="notice_li_01">
-          <div class="notice_date_01">
-            2022-05
-            <br />
-            <p>24</p>
-          </div>
-          <div class="notice_box_01">
-            <p><a href="#">2022년 2차 계약직 직원 수시 채용 공고문</a></p>
-            <p><a href="#">2022년 2차 계약직 직원 수시 채용 공고문</a></p>
-          </div>
-        </div>
-        <div class="notice_li_02">
-          <div class="notice_date_02">
-            2022-04
-            <br />
-            <p>29</p>
-          </div>
-          <div class="notice_box_02">
-            <p><a href="#">2021년 연간 기부금 모금액 및 활용실적 명세서</a></p>
-            <p><a href="#">2021년 연간 기부금 모금액 및 활용실적 명세서</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="biff">
-        <div class="biff_title">
-          <h3>BIFF News</h3>
-        </div>
-        <div class="biff_li_01">
-          <div class="biff_date_01">
-            2022-05
-            <br />
-            <p>16</p>
-          </div>
-          <div class="biff_box_01">
-            <p>
-              <a href="#">
-                [BIFF 보도자료] 2022 아시아프로젝트마켓(APM) 참가 프로젝트
-                모집!</a
-              >
-            </p>
-            <p>
-              <a href="#">
-                [BIFF 보도자료] 2022 아시아프로젝트마켓(APM) 참가 프로젝트
-                모집!</a
-              >
-            </p>
-          </div>
-        </div>
-        <div class="biff_li_02">
-          <div class="biff_date_02">
-            2022-05
-            <br />
-            <p>02</p>
-          </div>
-          <div class="biff_box_02">
-            <p>
-              <a href="#">
-                [BIFF 보도자료] 부산국제영화제 커뮤니티비프 '청년기획단'
-                모집!</a
-              >
-            </p>
-            <p>
-              <a href="#">
-                [BIFF 보도자료] 부산국제영화제 커뮤니티비프 '청년기획단' 모집!
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="sponsor">
-        <div>
-          <img src="image/sponsor_bg.jpg" alt="sponsor" />
-          <div class="sponsor_p">
-            <p>스폰서 모집</p>
-            <p>
-              제 27회 부산국제영화제와 함께할<br />
-              스폰서를 모집합니다.
-            </p>
-          </div>
-          <button>
-            <a href="#">자세히 보기</a>
-          </button>
-        </div>
-      </div>
-    </section>
     <content>
-      <div class="family_box">
-        <ul>
-          <li>
-            <img src="image/family_acfm.jpg" alt="1" />
-            <span>아시아콘텐츠 & 필름마켓</span>
-            <p>
-              영화∙영상 콘텐츠 산업 전반을 아우르며 다양하고<br />
-              풍성한 콘텐츠를 거래할 수 있는 산업의 장
-            </p>
-          </li>
-          <li>
-            <img src="image/family_apm.jpg" alt="2" />
-            <div>
-              <span>아시아프로젝트마켓</span>
-              <p>
-                전 세계 극영화 프로젝트를 대상으로 하는 <br />아시아 최대의 투자
-                및 공동제작 마켓.
-              </p>
-            </div>
-          </li>
-          <li>
-            <img src="image/family_cb.jpg" alt="3" />
-            <div>
-              <span>커뮤니티비프</span>
-              <p>관객이 만드는 영화제 속의 복합 문화 축제</p>
-            </div>
-          </li>
-        </ul>
+      <div id="slide">
+        <div class="sl_img">
+          <img class="slide_img" src="image/visual_01.jpg" alt="1" />
+          <div class="slide_span">
+            <span>2022년 새롭게 시작되는</span>
+            <span>CHANEL X BIFF 아시아영화아카데미</span>
+            <span
+              >2022년, 코로나바이러스감염증-19로 인해 일시 중단되었던
+              부산국제영화제 교육프로그램 아시아영화아카데미가 </span
+            ><span
+              >샤넬과 만나 CHANEL X BIFF 아시아영화아카데미 (CHANEL X BIFF ASIAN
+              FILM ACADEMY)로 새롭게 돌아왔습니다.​</span
+            >
+          </div>
+        </div>
+        <div class="sl_img02">
+          <img class="slide_img" src="image/visual_02.jpg" alt="1" />
+          <div class="slide_span02">
+            <span>2022년 제27회 부산국제영화제</span>
+            <span>2차 계약직 직원 수시채용</span>
+            <span>원서 접수:</span><span>2022년 5월 25일(수) ~​</span>
+          </div>
+        </div>
       </div>
+      <div class="icon_bt">
+        <span id="prev" class="material-symbols-outlined">
+          keyboard_backspace
+        </span>
+        <span class="material-symbols-outlined"> remove </span>
+        <span id="next" class="material-symbols-outlined">
+          arrow_right_alt
+        </span>
+      </div>
+      <div id="info">
+        <div class="notice">
+          <div class="info_title">
+            <h1>Notice</h1>
+          </div>
+          <div class="news">
+            <div class="date">
+              <p>2022-05</p>
+              <p>25</p>
+            </div>
+            <div class="write">
+              <span
+                >[공고]제 27회 부산국제영화제 온라인서비스 재개발 및 유지관리
+                용역 모집 공고</span
+              >
+              <span
+                >[공고]제 27회 부산국제영화제 온라인서비스 재개발 및 유지관리
+                용역 모집 공고</span
+              >
+            </div>
+          </div>
+          <div class="news02">
+            <div class="date">
+              <p>2022-05</p>
+              <p>24</p>
+            </div>
+            <div class="write02">
+              <span>2022년 2차 계약직 직원 수시 채용 공고문(5.31 수정)</span>
+              <span>2022년 2차 계약직 직원 수시 채용 공고문(5.31 수정)</span>
+            </div>
+          </div>
+        </div>
+        <div class="biff">
+          <div class="info_title">
+            <h1>BIFF News</h1>
+          </div>
+          <div class="news">
+            <div class="date">
+              <p>2022-05</p>
+              <p>25</p>
+            </div>
+            <div class="write03">
+              <span
+                >[BIFF 보도자료] 2022 아시아프로젝트마켓(APM) 참가 프로젝트
+                모집!</span
+              >
+              <span
+                >[BIFF 보도자료] 2022 아시아프로젝트마켓(APM) 참가 프로젝트
+                모집!</span
+              >
+            </div>
+          </div>
+          <div class="news02">
+            <div class="date">
+              <p>2022-05</p>
+              <p>24</p>
+            </div>
+            <div class="write04">
+              <span
+                >[BIFF 보도자료] 부산국제영화제 커뮤니티비프 '청년기획단'
+                모집!</span
+              >
+              <span
+                >[BIFF 보도자료] 부산국제영화제 커뮤니티비프 '청년기획단'
+                모집!</span
+              >
+            </div>
+          </div>
+        </div>
+        <div class="sponsor">
+          <a href="#">
+            <p>스폰서 모집</p>
+            <p>제27회 부산국제영화제와 함께할 스폰서를 모집합니다.</p>
+          </a>
+          <button class="sp_bt"><a href="#">자세히보기</a></button>
+        </div>
+      </div>
+      <div id="family">
+        <div class="family_box">
+          <ul>
+            <li>
+              <img src="image/family_acfm.jpg" alt="1" />
+              <span>아시아콘텐츠 & 필름마켓</span>
+              <p>
+                영화∙영상 콘텐츠 산업 전반을 아우르며 다양하고<br />
+                풍성한 콘텐츠를 거래할 수 있는 산업의 장
+              </p>
+            </li>
+            <li>
+              <img src="image/family_apm.jpg" alt="2" />
+              <div>
+                <span>아시아프로젝트마켓</span>
+                <p>
+                  전 세계 극영화 프로젝트를 대상으로 하는 <br />아시아 최대의
+                  투자 및 공동제작 마켓.
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="image/family_cb.jpg" alt="3" />
+              <div>
+                <span>커뮤니티비프</span>
+                <p>관객이 만드는 영화제 속의 복합 문화 축제</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="history">
+        <div class="background">
+          <div class="history_list">
+            <div class="history_title">
+              <h3>역대 상영작</h3>
+              <span>지난 영화제 개요 및 상영작 정보 </span>
+            </div>
+            <div class="arrow">
+              <span id="prev01" class="material-symbols-outlined">
+                arrow_back_ios
+              </span>
+              <span id="next01" class="material-symbols-outlined">
+                arrow_forward_ios
+              </span>
+            </div>
+            <div class="poster">
+              <ul class="poster_list">
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_01.jpg" alt="1" />
+                    <span>제26회, 2021</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_02.jpg" alt="2" />
+                    <span>제25회, 2020</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_03.jpg" alt="3" />
+                    <span>제24회, 2019</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_04.jpg" alt="4" />
+                    <span>제23회, 2018</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_05.jpg" alt="5" />
+                    <span>제22회, 2017</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_06.jpg" alt="6" />
+                    <span>제21회, 2016</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_07.jpg" alt="7" />
+                    <span>제20회, 2015</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_08.jpg" alt="8" />
+                    <span>제19회, 2014</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_09.jpg" alt="9" />
+                    <span>제18회, 2013</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_10.jpg" alt="10" />
+                    <span>제17회, 2012</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_11.jpg" alt="11" />
+                    <span>제16회, 2011</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_12.jpg" alt="12" />
+                    <span>제15회, 2010</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_13.jpg" alt="13" />
+                    <span>제14회, 2009</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_14.jpg" alt="14" />
+                    <span>제13회, 2008</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_15.jpg" alt="15" />
+                    <span>제12회, 2007</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_16.jpg" alt="16" />
+                    <span>제11회, 2006</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_17.jpg" alt="17" />
+                    <span>제10회, 2005</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_18.jpg" alt="18" />
+                    <span>제9회, 2004</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_19.jpg" alt="19" />
+                    <span>제8회, 2003</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_20.jpg" alt="20" />
+                    <span>제7회, 2002</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_21.jpg" alt="21" />
+                    <span>제6회, 2001</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_22.jpg" alt="22" />
+                    <span>제5회, 2000</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_23.jpg" alt="23" />
+                    <span>제4회, 1999</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_24.jpg" alt="24" />
+                    <span>제3회, 1998</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_25.jpg" alt="25" />
+                    <span>제2회, 1997</span></a
+                  >
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="image/poster_26.jpg" alt="26" />
+                    <span>제1회, 1996</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="history_btn">
+            <a href="#"
+              ><span class="material-symbols-outlined"> search </span> 상영작
+              통합검색</a
+            >
+          </div>
+        </div>
+      </div>
+      <div id="biff"></div>
+      <div id="sponsor"></div>
     </content>
-    <div class="container">
-      <div class="con_title">
-        <h3>역대 상영작</h3>
-        <p>지난 영화제 개요 및 상영작 정보</p>
-      </div>
-      <div class="next">
-        <span class="material-symbols-outlined"> arrow_forward_ios </span>
-      </div>
-      <div class="prev">
-        <span class="material-symbols-outlined"> arrow_back_ios </span>
-      </div>
-      <div class="poster">
-        <ul class="poster_list">
-          <li>
-            <a href="#"
-              ><img src="image/poster_01.jpg" alt="1" />
-              <span>제26회, 2021</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_02.jpg" alt="2" />
-              <span>제25회, 2020</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_03.jpg" alt="3" />
-              <span>제24회, 2019</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_04.jpg" alt="4" />
-              <span>제23회, 2018</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_05.jpg" alt="5" />
-              <span>제22회, 2017</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_06.jpg" alt="6" />
-              <span>제21회, 2016</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_07.jpg" alt="7" />
-              <span>제20회, 2015</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_08.jpg" alt="8" />
-              <span>제19회, 2014</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_09.jpg" alt="9" />
-              <span>제18회, 2013</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_10.jpg" alt="10" />
-              <span>제17회, 2012</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_11.jpg" alt="11" />
-              <span>제16회, 2011</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_12.jpg" alt="12" />
-              <span>제15회, 2010</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_13.jpg" alt="13" />
-              <span>제14회, 2009</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_14.jpg" alt="14" />
-              <span>제13회, 2008</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_15.jpg" alt="15" />
-              <span>제12회, 2007</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_16.jpg" alt="16" />
-              <span>제11회, 2006</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_17.jpg" alt="17" />
-              <span>제10회, 2005</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_18.jpg" alt="18" />
-              <span>제9회, 2004</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_19.jpg" alt="19" />
-              <span>제8회, 2003</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_20.jpg" alt="20" />
-              <span>제7회, 2002</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_21.jpg" alt="21" />
-              <span>제6회, 2001</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_22.jpg" alt="22" />
-              <span>제5회, 2000</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_23.jpg" alt="23" />
-              <span>제4회, 1999</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_24.jpg" alt="24" />
-              <span>제3회, 1998</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_25.jpg" alt="25" />
-              <span>제2회, 1997</span></a
-            >
-          </li>
-          <li>
-            <a href="#"
-              ><img src="image/poster_26.jpg" alt="26" />
-              <span>제1회, 1996</span></a
-            >
-          </li>
-        </ul>
-      </div>
-      <button class="con_btn">
-        <a href="#">상영작 통합검색</a>
-      </button>
-    </div>
-    <div id="main_sns">
-      <div class="sns">
-        <h3>BIFF SNS</h3>
-        <p>Follow us on SNS!</p>
-      </div>
-      <div class="sns_icon">
-        <ul>
-          <li>
-            <a href="#"><img src="image/sns_i_facebook.png" alt="1" /></a>
-            <span class="bg"><img src="image/sns_i_link.png" alt="1" /></span>
-          </li>
-          <li>
-            <a href="#"><img src="image/sns_i_twitter.png" alt="2" /></a>
-            <span class="bg"><img src="image/sns_i_link.png" alt="1" /></span>
-          </li>
-          <li>
-            <a href="#"><img src="image/sns_i_instagram.png" alt="3" /></a>
-            <span class="bg"><img src="image/sns_i_link.png" alt="1" /></span>
-          </li>
-          <li>
-            <a href="#"><img src="image/sns_i_youtube.png" alt="4" /></a>
-            <span class="bg"><img src="image/sns_i_link.png" alt="1" /></span>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="banner">
-      <ul>
-        <li>
-          <a href="#"><img src="image/main_7_banner01.jpg" alt="1" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="image/main_7_banner02 (1).jpg" alt="1" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="image/main_7_banner03 (1).jpg" alt="1" /></a>
-        </li>
-        <li>
-          <a href="#"><img src="image/main_7_banner05 (1).jpg" alt="1" /></a>
-        </li>
-      </ul>
-    </div>
-    <footer>
-      <div id="foot_full">
-        <div class="foot_link">
-          <span>부서별 연락처 | 개인정보처리 방침 | 저작권 정책</span>
-        </div>
-        <div class="foot_addr">
-          <span>부산사무국</span>
-          <ul>
-            <li>
-              <p>
-                (48058) 부산광역시 해운대구 수영강변대로 120 영화의전당 비프힐
-                3층
-              </p>
-            </li>
-            <li>
-              <p>지도</p>
-            </li>
-            <li>
-              <p>대표전화 1688-3010</p>
-            </li>
-          </ul>
-        </div>
-        <div class="foot_addr02">
-          <span>서울사무소</span>
-          <ul>
-            <li>
-              <p>(03131) 서울특별시 종로구 율곡로 84 가든타워 1601호</p>
-            </li>
-            <li>
-              <p>지도</p>
-            </li>
-            <li>
-              <p>전화 02-3675-5097</p>
-            </li>
-          </ul>
-        </div>
-        <div class="foot_copyright">
-          <span>ⓒ Busan International Film Festival / made by AccessICT</span>
-        </div>
-        <div class="foot_sns_btn">
-          <ul>
-            <li>
-              <a href="#"><img src="image/btn_sns_facebook.png" alt="1" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="image/btn_sns_instagram.png" alt="1" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="image/btn_sns_twitter.png" alt="1" /></a>
-            </li>
-            <li>
-              <a href="#"><img src="image/btn_sns_youtube.png" alt="1" /></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="top_btn">
-        <a href="#"
-          ><span class="material-symbols-outlined"> arrow_circle_up </span></a
-        >
-      </div>
-    </footer>
   </body>
 </html>

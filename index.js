@@ -1,8 +1,16 @@
-// language img 클릭했을때
+// top버튼 부드럽게
+$(function () {
+  $(document).ready(function () {
+    $(".top_btn").click(function () {
+      $("body,html").animate({ scrollTop: 0 }, 600);
+    });
+  });
+});
 
+// language img 클릭했을때
 $(document).ready(function () {
-  $(".lan_img").click(function () {
-    $(".language_list").toggle();
+  $(".language").click(function () {
+    $(".lan_list").toggle();
   });
 });
 
@@ -23,11 +31,22 @@ $(function () {
     dots: false,
     autoplay: true,
     infinite: true,
-    speed: 500,
+    speed: 400,
     fade: true,
     cssEase: "linear",
     prevArrow: $("#prev"),
     nextArrow: $("#next"),
+  });
+});
+
+//메뉴 슬라이드
+$(function () {
+  $(".none_list").hide();
+  $(".menu_list").mouseenter(function () {
+    $(".none_list").stop().slideDown(300);
+  });
+  $(".list01 ul").mouseleave(function () {
+    $(".none_list").stop().slideUp(200);
   });
 });
 
@@ -43,15 +62,6 @@ $(function () {
 //   $(".prev").click(function () {
 //     $(".poster_list").animate({ marginLeft: 0 }, function () {
 //       $(".poster_list:nth-child(n+7)").prependTo(".poster_list");
-//     });
-//   });
-// });
-
-//top버튼 부드럽게
-// $(function () {
-//   $(document).ready(function () {
-//     $(".top_btn").click(function () {
-//       $("body,html").animate({ scrollTop: 0 }, 600);
 //     });
 //   });
 // });

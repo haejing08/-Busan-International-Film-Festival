@@ -27,7 +27,7 @@ $(function () {
 
 //이미지2개넘어가기
 $(function () {
-  $("#slide").slick({
+  $("#slick_slide").slick({
     dots: false,
     autoplay: true,
     infinite: true,

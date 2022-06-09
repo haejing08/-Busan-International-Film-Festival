@@ -178,6 +178,9 @@ header > div {
   color: #d82f36;
 }
 
+content {
+}
+
 #slide {
   position: relative;
   min-width: 1340px;
@@ -191,7 +194,7 @@ header > div {
 
 .slide_span {
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 10%;
 }
 
@@ -232,7 +235,7 @@ header > div {
 
 .slide_span02 {
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 10%;
 }
 
@@ -273,9 +276,8 @@ header > div {
 
 .icon_bt {
   position: absolute;
-  bottom: 30px;
-  left: 300px;
-  display: inline-block;
+  bottom: 20%;
+  left: 10%;
   color: #fff;
   cursor: pointer;
 }
@@ -671,6 +673,7 @@ header > div {
 
 .biff_banner ul li:hover {
   content: url(image/sns_i_link.png);
+  -moz-content: url(image/sns_i_link.png);
 }
 
 #sponsor {
